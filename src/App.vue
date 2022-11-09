@@ -1,27 +1,31 @@
 <template>
-  <h1>{{message}}</h1>
+  <AppTitle />
+
 </template>
 
 
 <script>
-  export default{
-    data(){
-      return{
-        message: 'La mia prima app con Vite!'
-      }
-    },
-    methods: {
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
+export default {
+  components: {
+    AppTitle,
+    AppHero
+  },
+  data() {
+    return {
 
     }
+  },
+  methods: {
+
   }
+}
 </script>
 
 
 <style lang="css">
-  body{
-    background-color: grey;
-  }
-  h1{
-    color: brown;
-  }
+body {
+  background-color: grey;
+}
 </style>
