@@ -2,8 +2,8 @@
 
     <header>
 
-        <div>
-            <img src="/images/cats.png" alt="Jumbotron">
+        <div id="myHero">
+            <img src="\images\cats.jpg" alt="Jumbotron">
         </div>
 
     </header>
@@ -22,5 +22,7 @@ export default {
 </script>
     
 <style lang="css">
-
+img {
+    height: 100%;
+}
 </style>
